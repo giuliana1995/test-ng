@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Call_API } from '../interface/interface';
+import { call } from '../interface/interface';
 import { CallService } from '../service/call.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { CallService } from '../service/call.service';
 })
 export class DettagliComponent implements OnInit {
 
-  retur_dettagli: Array<Call_API> = []
+  retur_dettagli: Array<call> = []
   constructor(public call: CallService) { }
 
   ngOnInit(): void {

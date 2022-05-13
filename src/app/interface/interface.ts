@@ -1,4 +1,4 @@
-export interface Call_API {
+export interface call {
     activity: string;
     type: string;
     participants: number;

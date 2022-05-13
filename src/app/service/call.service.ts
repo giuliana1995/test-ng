@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { map } from 'rxjs';
-import { Call_API } from '../interface/interface';
+import { call } from '../interface/interface';
 @Injectable({
   providedIn: 'root'
 })
 export class CallService {
-  form_params_call: Array<Call_API>  = []
+  form_params_call: Array<call>  = []
   url!:string; 
-  api_data: Array<Call_API> = []
+  api_data: Array<call> = []
 
   dati_dettagli_call: any = [];
  
