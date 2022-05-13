@@ -1,0 +1,25 @@
+<main>
+    <div class="flex_column" *ngFor="let element of retur_dettagli; let index = index;">
+      <h1>
+        {{element.activity}}
+      </h1>
+      <h1>
+        Prezzo: {{element.price}}
+      </h1>
+  
+      <h1>
+        Partecipanti: {{element.participants}}
+      </h1>
+      <h1>
+        Type: {{element.type}}
+      </h1>
+
+    </div>
+  
+  </main>
+  
+  <div class="button_flex">
+    <button class="btn btn" routerLink="/liste">List</button>
+    <button class="btn btn" routerLink="">Home</button>
+  
+  </div>

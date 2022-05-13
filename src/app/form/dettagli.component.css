@@ -1,0 +1,21 @@
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin-left: 10px;
+  background-color: rgb(81, 81, 218);
+  
+}
+.button_flex {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+ 
+  
+  
